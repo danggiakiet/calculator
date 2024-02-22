@@ -12,3 +12,17 @@ D:\calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInput
 D:\calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.CopyComplete
 D:\calculator\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
+D:\Bai Tap\calculator\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\Bai Tap\calculator\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\Bai Tap\calculator\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\Bai Tap\calculator\Calculator\Calculator\bin\Debug\SunnyUI.Common.dll
+D:\Bai Tap\calculator\Calculator\Calculator\bin\Debug\SunnyUI.dll
+D:\Bai Tap\calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\Bai Tap\calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
+D:\Bai Tap\calculator\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+D:\Bai Tap\calculator\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\Bai Tap\calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\Bai Tap\calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\Bai Tap\calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.CopyComplete
+D:\Bai Tap\calculator\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\Bai Tap\calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
