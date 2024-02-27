@@ -202,6 +202,10 @@ namespace Calculator
                 if (txtResult.Text != "")
                 {
                     B = Convert.ToSingle(txtResult.Text);
+                    if(B == 0)
+                    {
+                        return;
+                    }
                     txtAns.Text = Convert.ToString(A / B);
                     string history = Convert.ToString(A) + " / " + Convert.ToString(B) + " = " + Convert.ToString(A / B);
                     addTextBoxToPanelHistory(history, xTxt, yTxt, tabHistory);
@@ -217,6 +221,10 @@ namespace Calculator
                 {
                     A = A = Convert.ToSingle(txtAns.Text);
                     B = Convert.ToSingle(txtResult.Text);
+                    if(B == 0)
+                    {
+                        return;
+                    }
                     txtAns.Text = Convert.ToString(A / B);
                     string history = Convert.ToString(A) + " / " + Convert.ToString(B) + " = " + Convert.ToString(A / B);
                     addTextBoxToPanelHistory(history, xTxt, yTxt, tabHistory);
@@ -368,6 +376,10 @@ namespace Calculator
             if (txtResult.Text != "")
             {
                 float a = Convert.ToSingle(txtResult.Text);
+                if(a == 0)
+                {
+                    return;
+                }
                 txtResult.Text = Convert.ToString(1 / a);
             }
         }
@@ -394,6 +406,10 @@ namespace Calculator
             if (txtResult.Text != "")
             {
                 float a = Convert.ToSingle(txtResult.Text);
+                if (a < 0)
+                {
+                    return;
+                }
                 double b = Math.Sqrt(Convert.ToDouble(a));
                 txtResult.Text = Convert.ToString(b);
                 string history = "√(" + Convert.ToString(a) + ") = " + Convert.ToString(b);
@@ -423,11 +439,11 @@ namespace Calculator
             {
                 if (txtResult.Text == "")
                 {
-                    txtResult.Text = "0,";
+                    txtResult.Text = "0.";
                 }
                 else
                 {
-                    txtResult.Text += ",";
+                    txtResult.Text += ".";
                 }
             }
         }
@@ -464,6 +480,10 @@ namespace Calculator
                 }
                 else if (pheptinh == "Chia")
                 {
+                    if(B == 0)
+                    {
+                        return;
+                    }
                     txtResult.Text = Convert.ToString(A / B);
                     string history = Convert.ToString(A) + " / " + Convert.ToString(B) + " = " + Convert.ToString(A / B);
                     addTextBoxToPanelHistory(history, xTxt, yTxt, tabHistory);
